@@ -1,0 +1,425 @@
+@import url("./fonts/Gothic_A1/GothicA1-Thin.ttf");
+@import url("./fonts/Gothic_A1/GothicA1-Medium.ttf");
+@import url("./fonts/Gothic_A1/GothicA1-Bold.ttf");
+
+
+
+
+
+@page {
+  size: A4;
+}
+
+*{
+      margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+  margin: 0;
+  padding: 0;
+font-family: 'GothicA1-Thin', sans-serif;
+}
+
+.yellow {
+  color: rgb(255, 225, 0);
+  font-weight: 700;
+}
+
+h1 {
+color:  rgb(255, 225, 0);
+}
+
+
+h3 {
+font-weight: bold;
+color:  rgb(255, 225, 0);
+margin: 0;
+text-transform: uppercase;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(21, 19, 19);
+    height: 15%;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    border: rgb(255, 225, 0) solid 1px;
+}
+
+
+/* section infoCommunication*/
+
+.InfoFormation {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgb(55, 51, 51);
+  color: whitesmoke;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+border: rgb(255, 225, 0) solid 1px;
+padding-left: 10px;
+background-color: rgb(55, 51, 51);
+}
+
+.communication {
+height: 40%;
+}
+
+.communication__h3 {
+background: rgb(55, 51, 51);
+padding-top: 10px;
+}
+
+.communication__ul {
+  padding-left: 0;
+}
+
+.communication__li {
+padding: 8px 0;
+font-size: 0.75rem;
+}
+
+.fa-solid.fa-phone,
+.fa-solid.fa-envelope,
+.fa-solid.fa-house {
+  padding-right: 0.25rem;
+  color: rgb(255, 225, 0) 
+
+}
+
+
+
+.icon {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px; /
+}
+
+.language {
+  padding-left: 0;
+  height: 20%;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.language__h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.language__ul {
+    padding-left: 0;
+}
+
+.language__li {
+  padding: 8px 0;
+}
+
+
+.softSkills {
+height: 40%;
+  font-size: 0.8rem;
+}
+
+.softSkills__h3 {
+    margin-bottom: 5px;
+}
+
+.softSkills__ul {
+  padding-left: 0;
+}
+
+.softSkills__li {
+  padding: 7.5px 0;
+}
+
+
+.competence {
+    border: rgb(255, 225, 0) solid 1px;
+    position: relative;
+}
+
+.competence__h2 {
+   color: black;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 225, 0);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 10px;
+        font-size: 1rem;
+}
+
+
+.skills {
+  margin-left: 5px;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+
+
+.skills__h3 {
+  margin: 10px 0;
+}
+
+.skills__p {
+  margin: 7.5px 0;
+  padding-bottom: 8px;
+}
+
+.skills__span {
+color: rgb(255, 225, 0);
+}
+
+
+.formation {
+    margin-left: 5px;
+    margin-top: 20px;
+      font-size: 0.75rem;
+      padding-bottom: 30px;
+}
+
+
+.formation__li {
+    margin: 7.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formation__span {
+  color: rgb(255, 225, 0);
+}
+
+.formation__degree {
+margin-left: 0;
+}
+
+.formation__school {
+margin-right: 15px;
+font-size: 0.70rem;
+}
+
+/*Experience*/
+
+.experience {
+    background-color: rgb(21, 19, 19);
+  color: whitesmoke;
+      border: rgb(255, 225, 0) solid 1px;
+      position: relative;
+}
+
+.experience__h2 {
+     color: black;
+    text-transform: uppercase;
+    position: absolute;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 225, 0);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.jobContainer {
+display: flex;
+padding-top: 40px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+
+
+}
+
+
+
+
+
+.jobLeft {
+  flex-basis: 50%;
+
+}
+
+.jobRight{
+  flex-basis: 50%;
+
+}
+
+.experience__ul1 {
+list-style: none;
+margin-right: 5px;
+}
+
+.experience__ul2 {
+list-style: none;
+margin-left: 5px;
+}
+
+.experience__h4 {
+  color: rgb(255, 225, 0);
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.experience__soc {
+  font-weight: 700;
+  font-size: 0.80rem;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+
+.job1 {
+  grid-area: j1;
+  padding-bottom: 15px;
+}
+
+.oclockList {
+  font-size: 0.75rem;
+    padding-left: 15px;
+}
+
+
+
+.job2 {
+  grid-area: j2;
+  padding-bottom: 15px;
+}
+
+.job3 {
+  grid-area: j3;
+  padding-bottom: 15px;
+}
+
+.job4 {
+  grid-area: j4;
+  padding-bottom: 15px;
+}
+
+.job5 {
+  grid-area: j5;
+  padding-bottom: 15px;
+}
+
+
+
+.experience__li {
+padding-bottom: 15px;
+}
+
+.experience__h4 {
+font-weight: bold;
+color: rgb(255, 225, 0);
+margin: 0;
+text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+
+.experience__p {
+  font-size: 0.75rem;
+}
+
+
+/*logiciel*/
+
+
+.logiciel {
+    background-color: rgb(55, 51, 51);
+      color: whitesmoke;
+          border: rgb(255, 225, 0) solid 1px;
+          display: flex;
+          justify-content: space-evenly;
+          padding-top: 10px;
+          padding-bottom: 10px;
+}  
+
+.logiciel__h2 {
+   color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bolder;
+        font-size: 1rem;
+        grid-area: ti;
+align-items: center;
+justify-content: center;
+text-align: center;
+align-self: center;
+color: rgb(255, 225, 0) ;
+}
+
+.languageFront {
+grid-area: fr;
+font-size: 0.75em;
+}
+
+.frontTitle {
+  font-size: 0.75rem;
+    padding-bottom: 7.5px;
+}
+
+.frontContainer {
+  display: flex;
+}
+
+.frontItem {
+  font-size: 0.75rem;
+}
+
+.listFront1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.languageBack {
+grid-area: ba;
+font-size: 0.60em;
+}
+
+.backTitle {
+  font-size: 0.75rem;
+  padding-bottom: 7.5px;
+}
+
+.backList {
+}
+
+.backItem {
+  font-size: 0.75rem;
+}
+
+.tools {
+grid-area: to;
+font-size: 0.75em;
+}
+
+.toolTitle {
+  font-size: 0.75rem;
+    padding-bottom: 7.5px;
+}
+
+.toolList {
+}
+
+.toolItem {
+  font-size: 0.75rem;
+}
